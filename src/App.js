@@ -14,10 +14,10 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-          <div>
+          <div style={{ display: "flex" }}>
             <NavStyle />
           </div>
-          <div>
+          <div style={{ display: "flex" }}>
             <Switch>
               {/* <Route
             path="/"
